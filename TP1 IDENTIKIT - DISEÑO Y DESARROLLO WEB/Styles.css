@@ -1,0 +1,130 @@
+h1 {
+    font-family: ‘Boldonse‘, system-ui; 
+    font-weight: 800;
+    font-size:40px;
+    text-align: center;
+ }
+
+ li {
+    text-decoration: none;
+    display: inline;
+    font-family: ‘Boldonse‘, system-ui; 
+    font-weight: bold;
+    font-size:20px;
+ }
+
+nav {
+      background-color: #4ea0a0;
+      line-height: 50px;
+      height: 50px;
+      padding: 10px 0
+    }
+
+nav img  {
+      float: left;
+      margin-top: 8px;
+      padding: 10px 0;
+      display: block;
+      margin-left: 8px;
+
+    }
+
+    ul {
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    gap: 130px;
+    margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #2a4242;
+      display: inline-block;
+    }
+
+    body {
+        background-color: #9DE8DD;
+        margin: 0;
+        padding: 0;
+      }
+  
+      footer{
+        background-color: #9DE8DD;
+        height: 50px;
+        text-align: center;
+        vertical-align: center;
+        margin-top: 7px;
+        }
+
+        .maletas-container {
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+            flex-wrap: wrap;
+          }
+          .maleta {
+          cursor: pointer;
+          transition: transform 0.3s;
+          width: 200px;
+          height: auto;
+    
+          }
+          .maleta:hover {
+            transform: scale(02);
+          }
+          .destino-container {
+            margin-top: 1rem;
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+          }
+          .destino-container img {
+            max-width: 300px;
+            width: 100%;
+            border-radius: 8px;          
+        }
+
+          .info {
+            max-width: 600px;
+            margin: auto;
+          }
+          .volver-btn {
+            margin-top: 2rem;
+            padding: 0.5rem 1.2rem;
+            background-color: #2a4242;
+            color: #9DE8DD;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-bottom: 3rem;
+
+          }
+          .volver-btn:hover {
+            background-color: #9DE8DD;
+          }
+          @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+          }
+
+          aside {
+            background-color: #4ea0a0;
+            display: inline-block;
+            width: 20%;
+            height: 600px;
+            vertical-align: top;
+            font-family: ‘Boldonse‘, system-ui; 
+            font-weight: 100;
+            font-size:5px;
+          }
+
+          .imagen-viva {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+          }
+          .imagen-viva:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+          }
